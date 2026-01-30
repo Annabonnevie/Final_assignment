@@ -1,2 +1,9 @@
 # Final_assignment
-About Individual assignment for the course Data handling and high-quality illustrations for publications, P000085, 2026V
+This is the final assignment for the doctoral course Data handling and high-quality illustrations for publications, P000085, 2026V at SLU.
+
+For the purpose of this assignment, I have used free data from TidyTuesday (https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-01-10), with data from the Project FeederWatch. 
+FeederWatch is a November-April survey of birds that visit backyards, nature centers, community areas, and other locales in North America. Citizen scientists could birds in areas with plantings, habitat, water, or food that attracts birds. The schedule is completely flexible. People count birds as long as they like on days of their choosing, then enter their counts online. This allows anyone to track what is happening to birds around your home and to contribute to a continental data-set of bird distribution and abundance.
+
+The data consists of two files, one with observation data and one with site description data. The observation data file includs observation point coordinates, date and time of day of the first observation, total number of birds observed and the species, the estimated survey time for each checklist and the estimated snow depth. The site description data includs information about the area, such as habitat type, yard type, amount of threes, shrubs, water sources, housing density, presence of other animals such as dogs, cats and squirrels, feeding schedule and the type of feeders. 
+
+The task for the final assignment was to create at least three different types of ggplot2 geoms, based on the data provided, and at least one spatial visualization. These should be created in and Quarto document in R (maps could also be created using QGIS), and that document should be submitted to GitHub, as well as used for the presentation of the results. The presentation should take about 10 minutes, and include visualization choices and lessons learned. 
